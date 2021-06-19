@@ -11,9 +11,13 @@ int main(int argc, char *argv[])
     std::string input = "data/range.obj";
     int grid_size = 100;
     int argindex = 0;
+    double omega = 10000000.0;
     while(argindex+1<argc){
         if(strncmp(argv[argindex+1],"-n",2)==0){
             grid_size = atoi(argv[argindex+2]);
+            argindex = argindex+2;
+        }else if(strncmp(argv[argindex+1],"-o",2)==0){
+            omega = atof(argv[argindex+2]);
             argindex = argindex+2;
         }else if(strncmp(argv[argindex+1],"-i",2)==0){
             input = argv[argindex+2];
@@ -41,7 +45,7 @@ int main(int argc, char *argv[])
         switch(key)
         {
             case 'S': case 's':
-                sparsify_heightfield(X,Y,Z0,Z);
+                sparsify_heightfield(X,Y,Z0,omega,Z);
                 triangulate_heightfield(X,Y,Z,U,G);
                 viewer.data().clear();
                 viewer.data().set_mesh(U,G);

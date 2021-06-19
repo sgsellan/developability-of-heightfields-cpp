@@ -9,7 +9,7 @@
 #include "admm.h"
 
 
-void sparsify_heightfield(const Eigen::MatrixXd & X, const Eigen::MatrixXd & Y, const Eigen::MatrixXd & Z0, Eigen::MatrixXd & Z)
+void sparsify_heightfield(const Eigen::MatrixXd & X, const Eigen::MatrixXd & Y, const Eigen::MatrixXd & Z0, const double omega, Eigen::MatrixXd & Z)
 {
     using namespace Eigen;
     std::vector<int> II;
@@ -27,7 +27,6 @@ void sparsify_heightfield(const Eigen::MatrixXd & X, const Eigen::MatrixXd & Y, 
     int ii_counter = 0;
     
     Eigen::MatrixXd B;
-    double omega = 10000000;
     double h = X(0,1) - X(0,0);
     double sq = sqrt(3);
     B.resize(4,7);
