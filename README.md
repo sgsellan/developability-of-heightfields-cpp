@@ -1,6 +1,6 @@
 # Developability of Heightfields via Rank Minimization
 
-:warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: ***DISCLAIMER PLEASE READ THIS*** :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning:
+:warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning:  ***DISCLAIMER PLEASE READ THIS*** :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning:
 
 This is a bad, unoptimized, restricted implementation of the core functionality of the SIGGRAPH 2020 ["Developability of Heightfields via Rank Minimization"](http://dgp.toronto.edu/~sgsellan/pdf/compressed-developables.pdf) by [Silvia Sellán](http://dgp.toronto.edu/~sgsellan/), [Noam Aigerman](https://noamaig.github.io/) and [Alec Jacobson](http://www.cs.toronto.edu/~jacobson/). **The proper code release for the paper, including scripts to recreate most paper figures, is [here](https://github.com/sgsellan/developability-of-heightfields)** <- That hyperlink is most likely what you are looking for.
 
