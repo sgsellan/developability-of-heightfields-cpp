@@ -1,10 +1,10 @@
 # Developability of Heightfields via Rank Minimization
 
-:warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning:  ***DISCLAIMER PLEASE READ THIS*** :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning:
+:warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning:  ***DISCLAIMER PLEASE READ THIS*** :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning:
 
 **This is a bad, unoptimized, restricted implementation of the core functionality of the SIGGRAPH 2020 ["Developability of Heightfields via Rank Minimization"](http://dgp.toronto.edu/~sgsellan/pdf/compressed-developables.pdf) by [Silvia Sellán](http://dgp.toronto.edu/~sgsellan/), [Noam Aigerman](https://noamaig.github.io/) and [Alec Jacobson](http://www.cs.toronto.edu/~jacobson/).** **The proper code release for the paper, including scripts to recreate most paper figures, is [here](https://github.com/sgsellan/developability-of-heightfields)** **<- That hyperlink is most likely what you are looking for.**
 
-:warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning:
+:warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: :warning: 
 
 Still, if running our algorithm would help with your own research or you want to be able to compare to our algorithm and you don't have access to Matlab, I provide this C++ implementation **without any guarantees at all**. I wrote this after the paper's publication as an exercise in learning C++ and may occassionally add functionality. Please do not hesitate to contact [sgsellan@cs.toronto.edu](mailto:sgsellan@cs.toronto.edu) if you find any issues or bugs in this code, or you need any additional functionality.
 
